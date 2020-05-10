@@ -1,0 +1,1 @@
+[  ] save cv as encrypted string, decrypt with user-supplied password
