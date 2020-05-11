@@ -1,0 +1,11 @@
+<script src="js/axios.min.js"></script>
+
+<script>
+  axios.get("http://127.0.0.1:8000/clienteapi/categorias/7/")
+       .then(response => {
+           console.log(response.data);
+       })
+       .catch(error => {
+           console.log(error);
+       });
+</script>
